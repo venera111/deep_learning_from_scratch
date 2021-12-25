@@ -42,6 +42,6 @@ def init():
 
 
 def load():
-    with open("mnist.pkl",'rb') as f:
+    with open("mnist.pkl",'rb') as f: # binary file
         mnist = pickle.load(f)
     return mnist["training_images"], mnist["training_labels"], mnist["test_images"], mnist["test_labels"]
