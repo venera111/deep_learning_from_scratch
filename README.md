@@ -21,3 +21,23 @@ This will cause Python to search this path for a module called `lincoln` when yo
 ### Chapter 5: Numpy Convolution Demos
 
 While I don't spend much time delving into the details in the main text of the book, I have implemented the batch, multi-channel convolution operation in pure Numpy (I do describe how to do this and share the code in the book's Appendix). In [this notebook](05_convolutions/Numpy_Convolution_Demos.ipynb), I demonstrate using this operation to train a single layer CNN from scratch in pure Numpy to get over 90% accuracy on MNIST.
+
+### Additional materials for study
+
+1. MIT 18.065 Matrix Methods in Data Analysis, Signal Processing, and Machine Learning, Spring 2018:
+	https://www.youtube.com/playlist?list=PLUl4u3cNGP63oMNUHXqIUcrkS2PivhN3k
+
+2. Convolutional Neural Networks for Visual Recognition:
+	https://www.reg.ru/blog/stenfordskij-kurs-lekciya-1-vvedenie/
+
+3. Convolutional Neural Network from Scratch (Programforyou):
+	https://programforyou.ru/poleznoe/convolutional-network-from-scratch-part-zero-introduction
+
+4. Image and video analysis (compscicenter.ru):
+	https://compscicenter.ru/courses/images-and-video-1/2019-autumn/classes/
+
+5. Understanding the difficulty of training deep feedforward neural networks:
+	https://proceedings.mlr.press/v9/glorot10a/glorot10a.pdf
+
+6. AdaNet: Adaptive Structural Learning of Artificial Neural Networks:
+	http://proceedings.mlr.press/v70/cortes17a/cortes17a.pdf
