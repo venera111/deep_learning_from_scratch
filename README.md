@@ -41,3 +41,6 @@ While I don't spend much time delving into the details in the main text of the b
 
 6. AdaNet: Adaptive Structural Learning of Artificial Neural Networks:
 	http://proceedings.mlr.press/v70/cortes17a/cortes17a.pdf
+
+7. Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification:
+	https://arxiv.org/pdf/1502.01852v1.pdf
