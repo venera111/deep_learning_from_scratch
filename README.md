@@ -44,3 +44,6 @@ While I don't spend much time delving into the details in the main text of the b
 
 7. Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification:
 	https://arxiv.org/pdf/1502.01852v1.pdf
+
+8. Improving neural networks by preventing co-adaptation of feature detectors
+	https://arxiv.org/pdf/1207.0580.pdf
