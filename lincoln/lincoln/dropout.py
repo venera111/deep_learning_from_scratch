@@ -15,7 +15,7 @@ class Dropout(Operation):
             return self.input_ * self.keep_prob
         else:
             self.mask = np.random.binomial(1, self.keep_prob,
-                                           size=self.input_.shape)
+                                           size=self.input_.shape) # Bernoulli random number generator
             return self.input_ * self.mask
 
     def _input_grad(self, output_grad: ndarray) -> ndarray:
