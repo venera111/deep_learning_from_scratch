@@ -47,3 +47,7 @@ While I don't spend much time delving into the details in the main text of the b
 
 8. Improving neural networks by preventing co-adaptation of feature detectors
 	https://arxiv.org/pdf/1207.0580.pdf
+
+9. CS231n: Свёрточные нейронные сети для распознавания образов (на русском):
+	https://habr.com/ru/post/456186/
+	https://cs231n.github.io/convolutional-networks/
