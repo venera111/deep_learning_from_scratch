@@ -90,7 +90,7 @@ class Dense(Layer):
         np.random.seed(self.seed)
         num_in = input_.shape[1]
 
-        if self.weight_init == "glorot": # http://data4.ru/xavier
+        if self.weight_init == "glorot":
             scale = 2/(num_in + self.neurons)
         else:
             scale = 1.0

@@ -84,7 +84,7 @@ class SoftmaxCrossEntropy(Loss):
         # applying the softmax function to each row (observation)
         softmax_preds = softmax(self.prediction, axis=1)
 
-        # clipping the softmax output to prevent numeric instability http://cs231n.github.io/linear-classify/#softmax 
+        # clipping the softmax output to prevent numeric instability
         self.softmax_preds = np.clip(softmax_preds, self.eps, 1 - self.eps)
 
         # actual loss computation
